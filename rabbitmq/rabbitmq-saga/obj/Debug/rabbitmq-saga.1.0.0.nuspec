@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>rabbitmq-saga</id>
+    <version>1.0.0</version>
+    <authors>rabbitmq-saga</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="rabbitmq_message" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="MassTransit" version="6.3.2" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.EntityFrameworkCore" version="6.3.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\RabbitMq_Example\localSystemNuget\netcoreapp3.1\rabbitmq-saga.dll" target="lib\netcoreapp3.1\rabbitmq-saga.dll" />
+  </files>
+</package>

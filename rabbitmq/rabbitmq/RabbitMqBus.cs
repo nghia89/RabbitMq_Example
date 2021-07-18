@@ -2,6 +2,7 @@
 
 using MassTransit;
 using MassTransit.RabbitMqTransport;
+using rabbitmq_message;
 using System;
 
 namespace rabbitmq

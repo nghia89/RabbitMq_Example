@@ -1,0 +1,15 @@
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\bin\Debug\netcoreapp3.1\rabbitmq-saga.deps.json
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\bin\Debug\netcoreapp3.1\rabbitmq-saga.dll
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\bin\Debug\netcoreapp3.1\rabbitmq-saga.pdb
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\bin\Debug\netcoreapp3.1\rabbitmq_message.dll
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\bin\Debug\netcoreapp3.1\rabbitmq_message.pdb
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.csproj.AssemblyReference.cache
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.AssemblyInfoInputs.cache
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.AssemblyInfo.cs
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.csproj.CoreCompileInputs.cache
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.csproj.CopyComplete
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.dll
+D:\RabbitMq_Example\rabbitmq\rabbitmq-saga\obj\Debug\netcoreapp3.1\rabbitmq-saga.pdb
+D:\RabbitMq_Example\localSystemNuget\netcoreapp3.1\rabbitmq-saga.deps.json
+D:\RabbitMq_Example\localSystemNuget\netcoreapp3.1\rabbitmq-saga.dll
+D:\RabbitMq_Example\localSystemNuget\netcoreapp3.1\rabbitmq-saga.pdb

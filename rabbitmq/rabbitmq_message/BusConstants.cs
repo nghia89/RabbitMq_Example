@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace rabbitmq
+namespace rabbitmq_message
 {
     public class BusConstants
     {
@@ -10,5 +10,6 @@ namespace rabbitmq
         public const string UserName = "guest";
         public const string Password = "guest";
         public const string OrderQueue = "validate-order-queue";
+        public const string SagaBusQueue = "saga-bus-queue";
     }
 }

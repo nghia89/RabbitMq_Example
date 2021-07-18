@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>saga_machine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="6.3.2" />
+    <PackageReference Include="MassTransit.EntityFrameworkCore" Version="6.3.2" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\rabbitmq-saga\rabbitmq-saga.csproj" />
+    <ProjectReference Include="..\rabbitmq_message\rabbitmq_message.csproj" />
+  </ItemGroup>
+
+</Project>

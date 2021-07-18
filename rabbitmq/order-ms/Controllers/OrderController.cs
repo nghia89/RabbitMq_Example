@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using order_ms.infa;
 using order_ms.ViewModel;
-using rabbitmq;
 using rabbitmq_message;
 using System;
 using System.Collections.Generic;
@@ -52,5 +51,22 @@ namespace order_ms.Controllers
             var data = await _OrderDataAccess.GetAll();
             return Ok(data);
         }
+
+        [HttpPost]
+        [Route("createorderstatemachine")]
+        public async Task<IActionResult> CreateOrderUsingStateMachine([FromBody] OrderModel orderModel)
+        {
+            var endpoint = await _sendEndpointProvider.GetSendEndpoint(new Uri("queue:" + BusConstants.SagaBusQueue));
+
+            await endpoint.Send<IOrderStartEvent>(new
+            {
+                OrderId = orderModel.OrderId,
+                PaymentCardNumber = orderModel.CardNumber,
+                ProductName = orderModel.ProductName
+            });
+
+            return Ok("Success");
+        }
+
     }
 }
